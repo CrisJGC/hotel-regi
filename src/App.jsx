@@ -22,7 +22,7 @@ function App() {
 
 
   const deleteGuest = id => {
-    const guestAct = guest.filter(guest => guest.id !== id)
+    const guestAct = guests.filter(guest => guest.id !== id)
     setGuests(guestAct)
   }
 
